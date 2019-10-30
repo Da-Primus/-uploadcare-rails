@@ -18,7 +18,7 @@ module Uploadcare
       # override default to string method
       # instead of string representation of object it will return simple cdn url of a file
       def to_s
-        cdn_url
+        cdn_url_with_operations
       end
 
       def to_builder
